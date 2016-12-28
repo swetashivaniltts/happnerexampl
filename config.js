@@ -1,38 +1,25 @@
 module.exports = {
-name: 'happner_demo',
+  name: 'happner_demo',
   datalayer: {
     host: 'localhost',
     port: 6060,
     persist: false,
     secure: false,
   },
-    modules: {
-      master: {
+  modules: {
+    master: {
       path: 'master'
-    },
-    hello_module :{
-      path : 'hello'
     }
-    },
+  },
   components: {
-    'master': {
-      startMethod: 'start',
-      stopMethod: 'stop',
-      module: 'master',
+    'test_component': {
+      module: 'test_component',
       web: {
-             routes: {
-               static: 'app'
-             }
-           }
-},
-'hello': {
-  module: 'hello_module',
-     web: {
-       routes: {
-         static: 'app'
-       }
-     }
-   }
-}
+        routes: {
+          static: 'app'
+        }
+      }
+    }
+  }
 
 }
