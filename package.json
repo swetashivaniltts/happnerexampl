@@ -1,0 +1,15 @@
+{
+  "name": "happner-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sweta",
+  "license": "MIT",
+  "dependencies": {
+    "happner": "^1.28.6"
+  },
+  "devDependencies": {},
+  "description": ""
+}
