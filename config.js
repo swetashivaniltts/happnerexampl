@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'happner_demo',
+  name: 'happnerexampl',
   datalayer: {
     host: 'localhost',
     port: 6060,
@@ -7,8 +7,8 @@ module.exports = {
     secure: false,
   },
   modules: {
-    master: {
-      path: 'master'
+    test_component: {
+      path: 'test_component'
     }
   },
   components: {

@@ -1,5 +1,5 @@
 {
-  "name": "happner-demo",
+  "name": "happnerexampl",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,13 @@
     "happner": "^1.28.6"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swetashivani/happnerexampl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swetashivani/happnerexampl/issues"
+  },
+  "homepage": "https://github.com/swetashivani/happnerexampl#readme",
   "description": ""
 }
