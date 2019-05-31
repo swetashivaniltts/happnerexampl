@@ -3,7 +3,7 @@ var Config  = require('./config');
 
 Happner.create(Config)
 .then(function(mesh) {
-console.log('mesh created successfully :');
+console.log('mesh created successfully : Azure Pipeline');
 });
 
 console.log("hello world");
